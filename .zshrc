@@ -11,6 +11,9 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="/home/drew/.oh-my-zsh"
 
+#Adding Rust commands to zsh
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -110,6 +113,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="micro ~/.zshrc"
 alias ohmyzsh="micro ~/.oh-my-zsh"
 alias zshreload="source ~/.zshrc"
+alias gdot='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
