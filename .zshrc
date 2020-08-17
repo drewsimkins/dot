@@ -13,6 +13,8 @@ export ZSH="/home/drew/.oh-my-zsh"
 
 #Adding Rust commands to zsh
 [[ ":$PATH:" != *":$HOME/.cargo/bin:"* ]] && PATH="$HOME/.cargo/bin:${PATH}"
+#Add Racer for rust
+export RUST_SRC_PATH=${HOME}/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
