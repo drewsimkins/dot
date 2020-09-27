@@ -11,6 +11,9 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="/home/drew/.oh-my-zsh"
 
+#Path to doom
+export PATH="$HOME/.emacs.d/bin:$PATH"
+
 #Adding Rust commands to zsh
 [[ ":$PATH:" != *":$HOME/.cargo/bin:"* ]] && PATH="$HOME/.cargo/bin:${PATH}"
 #Add Racer for rust
