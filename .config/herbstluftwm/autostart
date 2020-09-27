@@ -19,12 +19,14 @@ hc keyunbind --all
 # if you have a super key you will be much happier with Mod set to Mod4
 #Mod=Mod1    # Use alt as the main modifier
 Mod=Mod4   # Use the super key as the main modifier
-Term=termite
+Term=termite #Set preferred terminal
+myEditor="emacsclient -c -a emacs"  # Set my preferred editor
 
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-q close
 hc keybind $Mod-Return spawn $Term
+hc keybind $Mod-e spawn $myEditor
 
 #Custom keybinds
 hc keybind $Mod-f spawn "firefox"
