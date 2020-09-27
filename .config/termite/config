@@ -6,7 +6,7 @@
 #cell_width_scale = 1.0
 #clickable_url = true
 #dynamic_title = true
-font = FiraCode Nerd Font 13
+font = Lekton Nerd Font 14
 #fullscreen = true
 #icon_name = terminal
 #mouse_autohide = false
@@ -94,7 +94,7 @@ color15 = #ffffff
 foreground      = #ffffff
 foreground_bold = #ffffff
 cursor          = #ffffff
-background      = #000000
+background      = rgba(10,10,10, 0.9)
 
 # black
 color0  = #2a1d17
